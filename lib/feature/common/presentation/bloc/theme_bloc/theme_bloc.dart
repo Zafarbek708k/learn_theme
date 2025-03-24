@@ -2,8 +2,8 @@ import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:learn_theme/service/storage_keys.dart';
-import 'package:learn_theme/service/storage_repository.dart';
+import 'package:learn_theme/core/service/storage_keys.dart';
+import 'package:learn_theme/core/service/storage_repository.dart';
 
 part 'theme_event.dart';
 

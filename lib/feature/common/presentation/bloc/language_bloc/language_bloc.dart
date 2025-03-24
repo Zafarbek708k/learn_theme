@@ -3,8 +3,8 @@ import 'dart:ui';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:learn_theme/service/storage_keys.dart';
-import 'package:learn_theme/service/storage_repository.dart';
+import 'package:learn_theme/core/service/storage_keys.dart';
+import 'package:learn_theme/core/service/storage_repository.dart';
 
 part 'language_event.dart';
 

@@ -1,6 +1,6 @@
 export "package:flutter_gen/gen_l10n/app_localizations.dart";
 import 'package:flutter/material.dart';
-import 'package:learn_theme/theme/custom_colors.dart';
+import 'package:learn_theme/core/theme/custom_colors.dart';
 
 import 'extension.dart';
 

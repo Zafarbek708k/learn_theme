@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:learn_theme/bloc/language_bloc/language_bloc.dart';
-import 'package:learn_theme/service/extension.dart';
-import 'package:learn_theme/service/storage_repository.dart';
-import 'package:learn_theme/theme/theme.dart';
-import 'bloc/theme_bloc/theme_bloc.dart';
+import 'package:learn_theme/core/service/extension.dart';
+import 'core/service/storage_repository.dart';
+import 'core/theme/theme.dart';
+import 'feature/common/presentation/bloc/language_bloc/language_bloc.dart';
+import 'feature/common/presentation/bloc/theme_bloc/theme_bloc.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
